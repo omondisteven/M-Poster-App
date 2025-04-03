@@ -314,7 +314,7 @@ function Home() {
         }
         
         const encodedData = encodeURIComponent(JSON.stringify(qrData));
-        setPreviewQrData(`http://e-biz-mpesa-payment-app.vercel.app/QrResultsPage?data=${encodedData}`);
+        setPreviewQrData(`http://e-biz-mpesa-payment-app.vercel.app/MPosterQrResultsPage?data=${encodedData}`);
       }
     };
   
@@ -373,7 +373,7 @@ function Home() {
             }
       
             const encodedData = encodeURIComponent(JSON.stringify(qrData));
-            const originalUrl = `http://e-biz-mpesa-payment-app.vercel.app/QrResultsPage?data=${encodedData}`;
+            const originalUrl = `http://e-biz-mpesa-payment-app.vercel.app/MPosterQrResultsPage?data=${encodedData}`;
       
             // Create TinyURL
             const response = await fetch(`https://api.tinyurl.com/create`, {
