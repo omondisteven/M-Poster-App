@@ -4,10 +4,11 @@
   "type": "module",
   "description": "Create Mpesa Posters taht allow payment with Qr Codes",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build && tsc",
-    "serve": "vite preview",
-    "test": "vitest run"
+  "dev": "next dev",
+  "build": "next build && tsc",
+  "start": "next start",
+  "test": "vitest run",
+  "lint": "next lint"
   },
   "resolutions": {
     "react": "19.0.0",
